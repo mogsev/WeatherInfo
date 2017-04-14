@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mogsev.weatherinfo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_card_wearther_search" />
+
+        <include layout="@layout/item_card_weather_info" />
+
+    </LinearLayout>
+
+    <include layout="@layout/item_fab_choice_place" />
+
+</android.support.design.widget.CoordinatorLayout>
